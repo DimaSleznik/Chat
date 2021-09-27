@@ -1,0 +1,90 @@
+.Chat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  position: relative;
+}
+.Chat__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 35px;
+  z-index: 3;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+}
+.options_img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.Chat_messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+.Chat_messages::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+}
+
+.Chat_messages::-webkit-scrollbar-thumb {
+  background-color: #d43333;
+  height: 10px;
+}
+.Chat_messages {
+  overflow-y: scroll;
+  width: 70%;
+  height: 100%;
+  background-color: #0077c71e;
+}
+.space_block {
+  height: 70px;
+}
+.Chat_send {
+  bottom: 0;
+  position: absolute;
+  width: 70%;
+}
+.Chat_send .text_area {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 70%;
+  border: none;
+}
+.Chat_send .send_button {
+  height: 50px;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+.Chat_my_message {
+  word-wrap: break-word;
+  border-radius: 10px 0 10px 0;
+  padding: 5px;
+  background-color: lightcoral;
+  margin: 5px;
+  margin-left: auto;
+  width: 300px;
+  min-height: 50px;
+}
+.Chat_user_message {
+  word-wrap: break-word;
+  background-color: rgba(135, 206, 250, 0.384);
+  border-radius: 10px 0 10px 0;
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  min-height: 50px;
+}
+.Avatar_photo {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

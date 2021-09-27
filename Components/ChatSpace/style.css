@@ -1,0 +1,7 @@
+.ChatSpace {
+  display: flex;
+  height: 100%;
+}
+.Chat_SETTING {
+  width: 25%;
+}
